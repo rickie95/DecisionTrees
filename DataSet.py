@@ -16,7 +16,7 @@ class DataSet:
         self.target_pos = target
         example = []  # a list of values
 
-        with open(path) as file:
+        with open("datasets/"+path) as file:
             reader = csv.reader(file, delimiter=',', quotechar='|')
             attrib = True
             for row in reader:
