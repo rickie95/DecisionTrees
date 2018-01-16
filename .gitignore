@@ -1,6 +1,7 @@
 # Personal stuff
 README.md
 requirements.txt
+datasets/
 *.csv
 
 # Byte-compiled / optimized / DLL files
