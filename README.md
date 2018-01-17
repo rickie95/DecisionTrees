@@ -40,6 +40,13 @@ def __learn_decision_tree(self, examples, attributes, default):
          return tree
          
 ```
+# Install and usage
+
+- Clone repo
+- Assuming that you are using venv, create a new enviroment with python3 and install all the packages listed in requirements.txt
+- Run main.py
+- [Bonus] If you are not using an IDE or you haven't installed Scikit viewer you have to close every plot to see the next one
+
 # Useful info
 
 - There is a short report (in Italian for now) where you can find a very little brief about this implementation and some chart obtained by dataset listed above.
