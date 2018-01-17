@@ -32,7 +32,7 @@ def __learn_decision_tree(self, examples, attributes, default):
          tree = AttribNode(self.attributi[best])
          m = AnswerLeaf(self.majority-value(examples))
          for value in set([ex[best] for ex in examples]):  
-             esempi_i = [e for e in examples if e[best] == value] 
+             examples_i = [e for e in examples if e[best] == value] 
              sub_tree = self.__learn_decision_tree(
                  examples_i, self.separate_list(attributes, self.attributes[best]), m)
              tree.add_sub_tree(sub_tree, value)
